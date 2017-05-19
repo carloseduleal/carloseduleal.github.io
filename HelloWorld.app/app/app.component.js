@@ -9,7 +9,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: "my-app",
-        template: "\n    <ActionBar id=\"meuId\" name=\"meuName\" automationText=\"titulo\" title=\"Meu super t\u00EDtulo\"></ActionBar>\n    <Label text=\"Aquele texto que voce respeita\"></Label>\n  "
+        template: "\n    <ActionBar name=\"meuTitulo\" title=\"Meu super t\u00EDtulo\"></ActionBar>\n    <Label name=\"meuName\" text=\"Aquele texto que voce respeita\"></Label>\n  "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
